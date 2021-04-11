@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="kadai3_3.css">
+    <title>リアルタイムフィルタ</title>
+  </head>
+  
+  <body>
+    <h2>リアルタイムフィルター</h2>
+    
+    <p>検索ワードを入力してください</p>
+    
+    <!--onkeyup:ユーザーが押していたキーを離した時に発生するイベント-->
+    <input type="text" id="filter" onkeyup="inputCheck()">
+    <div id="check">入力前</div>
+    
+    
+    
+    <div id="gyou1">
+      
+      <div id="block1"> <!--1つ目-->
+        <img src="https://i.gyazo.com/08815f13e5bc50e8bc93c6f234e99865.png" alt="test">
+        <p id="tag1">グラブル 水武器　SSR</p>
+      </div>
+      
+      <div id="block2"> <!--2つ目-->
+        <img src="https://i.gyazo.com/e1e5bdc7231519c2575ec8f2dae68cc1.jpg" alt="test2">
+        <p id="tag2">ゆるキャン△　水曜どうでしょう</p>
+      </div>
+      
+      <div id="block3">
+        <img src="https://i.gyazo.com/1e60fa1fdf88cb71cfe9a17c093bd6e0.png">
+        <p id="tag3">ウマ娘　タイキシャトル</p> 
+      </div>
+      
+       <div id="block4">
+        <img src="https://i.gyazo.com/21bfd1bb0a7ae3d887954265a6ed1b6b.png">
+        <p id="tag4">Hearts of Galaxy 宇宙</p> 
+      </div>
+      
+    </div>
+    
+    <script src="kadai3_3.js"></script>
+  </body>
+</html>
